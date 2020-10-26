@@ -44,21 +44,27 @@ const Offert = () => {
                     fixed={data.tableCake.childImageSharp.fixed}
                     className="offert__image"
                     />
-                    <h2 className="offert__image-caption">Słodki stół</h2>
+                    <div className="offert__image-caption">
+                        <h2 className="offert__image-caption-title">Słodki stół</h2>
+                    </div>
                 </div>
                 <div className="offert__photo-container">
                     <Img
                     fixed={data.cakes.childImageSharp.fixed}
                     className="offert__image"
                     />
-                    <h2 className="offert__image-caption">Ciasta i małe słodkości</h2>
+                    <div className="offert__image-caption">
+                        <h2 className="offert__image-caption-title">Ciasta i małe słodkości</h2>
+                    </div>
                 </div>
                 <div className="offert__photo-container">
                     <Img
                     fixed={data.birthdayCake.childImageSharp.fixed}
                     className="offert__image"
                     />
-                    <h2 className="offert__image-caption">Torty</h2>
+                    <div className="offert__image-caption">
+                        <h2 className="offert__image-caption-title">Torty</h2>
+                    </div>
                 </div>
             </div>
         </section>

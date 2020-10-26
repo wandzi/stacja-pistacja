@@ -1,9 +1,11 @@
+@import '../../styles/variables.scss';
+
 .offert {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    margin-top: 100px;
+    margin: 100px 0;
 }
 .flex {
     display: flex;
@@ -13,38 +15,39 @@
     width: 100%;
 }
 .offert__title {
-    margin: 100px 0;
+    margin: 90px 0;
     text-transform: uppercase;
 }
 .offert__photo-container {
-    position:relative;
-}
-.offert__image {
-    position:absolute;
-    filter: grayscale(1);
-    transition: 0.3ss ease-in-out;
-    cursor: pointer;
-    &:hover {
-        filter: grayscale(0);
-        transition: 0.3s ease-in-out;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .offert__image-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100%;
     height:100%;
     background:rgba(0, 0, 0, 0.7);
     position:absolute; 
+    top: 0;
     opacity:0; 
     transition:all 300ms ease-in-out;
     -webkit-transition:all 300ms ease-in-out;
     -moz-transition:all 300ms ease-in-out;
     -o-transition:all 300ms ease-in-out;
     -ms-transition:all 300ms ease-in-out;
-    font-weight: 600;
     font-size: 3rem;
+    color: $font_white;
     text-transform: uppercase;
-    
+    text-align: center;
+    cursor: pointer;
 }
-.offert__image-caption {
-    
+.offert__image-caption-title {
+    margin: 0;
+}
+.offert__photo-container:hover .offert__image-caption {
+    opacity: 1;
 }
