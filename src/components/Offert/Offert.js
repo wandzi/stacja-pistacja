@@ -67,6 +67,11 @@ const Offert = () => {
                     </div>
                 </div>
             </div>
+            <h3 className="offert__kicker">
+                Chcesz poznać szczegółową ofertę, bądź zarezerwować termin? 
+                <br/> 
+                Napisz do mnie na stacjapistacjaa@gmail.com bądź zadzwoń 666-638-256
+            </h3>
         </section>
     )
 }
