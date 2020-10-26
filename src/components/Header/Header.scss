@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.header {
+    width: 100vw;
+    height: 50vh;
+}
+.header__movie-coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: dimgray;
+    color: white;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.header__nav-link {
+    color: $font_color;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    &:hover {
+        color: $font_color;
+    }
+}
