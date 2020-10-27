@@ -56,3 +56,33 @@
     font-size: 3.7rem;
     text-align: center;
 }
+.offert__social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.offert__social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.offert__social-logo {
+    width: 40px;
+}
+.ofert__social-username {
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: $primary_color;
+}
+.offert__contact-details {
+    color: $primary_color;
+    text-decoration: none;
+        &:hover {
+            color: $primary_color;        
+        }
+}   
