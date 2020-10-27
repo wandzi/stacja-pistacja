@@ -52,15 +52,16 @@
     opacity: 1;
 }
 .offert__kicker {
-    margin: 200px 0;
+    margin: 150px 0;
     font-size: 3.7rem;
     text-align: center;
 }
 .offert__social-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
 }
 .offert__social-link {
     display: flex;

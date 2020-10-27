@@ -9,7 +9,7 @@ const BlogPost = (props) => {
         <div className="blog-post-card">
             <img className="blog-post-card__image" src={postMiniature} alt="blog_pic"/>
             <h1 className="blog-post-card__title">{props.title}</h1>
-            <p className="blog-post-card__desc">{props.desc}</p>
+            <p className="blog-post-card__desc">{props.description}</p>
             <img src={arrow} alt="read-more" className="blog-post-card__read-more"/>
         </div>
     )
