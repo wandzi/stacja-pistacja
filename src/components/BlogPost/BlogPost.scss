@@ -1,0 +1,38 @@
+@import '../../styles/variables.scss';
+
+.blog-post-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 20px;
+    border: 2px solid $font-white;
+    border-radius: 10px;
+    color: $font-white;
+}
+
+.blog-post-card__image {
+    width: 65%;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+
+.blog-post-card__title {
+    font-size: 3rem;
+    text-align: center;
+}
+.blog-post-card__desc {
+    text-align: justify;
+}
+
+
+.blog-post-card__read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 30px;
+    cursor: pointer;
+}
