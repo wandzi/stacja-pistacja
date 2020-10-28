@@ -1,9 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
-
-import instagramLogo from '../../images/instagram-brands.svg'
-import facebookLogo from '../../images/facebook-brands.svg'
+import Socials from '../Socials/Socials'
 import './Offert.scss'
 
 const Offert = () => {
@@ -60,8 +58,8 @@ const Offert = () => {
                 </div>
                 <div className="offert__photo-container">
                     <Img
-                    fixed={data.cakes.childImageSharp.fixed}
-                    className="offert__image"
+                        fixed={data.cakes.childImageSharp.fixed}
+                        className="offert__image"
                     />
                     <div className="offert__image-caption">
                         <h2 className="offert__image-caption-title">Ciasta i małe słodkości</h2>
@@ -69,8 +67,8 @@ const Offert = () => {
                 </div>
                 <div className="offert__photo-container">
                     <Img
-                    fixed={data.birthdayCake.childImageSharp.fixed}
-                    className="offert__image"
+                        fixed={data.birthdayCake.childImageSharp.fixed}
+                        className="offert__image"
                     />
                     <div className="offert__image-caption">
                         <h2 className="offert__image-caption-title">Torty</h2>
@@ -86,17 +84,7 @@ const Offert = () => {
 
             <Img fixed={data.logo.childImageSharp.fixed}/>
 
-            <div className="offert__social-container">
-                <a href="https://www.facebook.com/Stacja-Pistacja-2237274909854496" target="_blank" rel="noreferrer" className="offert__social-link">
-                    <img className="offert__social-logo" src={instagramLogo} alt="instagram-logo" />
-                    <h1 className="ofert__social-username">Stacja_pistacja</h1>
-                </a>
-                
-                <a href="https://www.facebook.com/Stacja-Pistacja-2237274909854496" target="_blank" rel="noreferrer" className="offert__social-link">
-                    <img className="offert__social-logo" src={facebookLogo} alt="facebook-logo" />
-                    <h1 className="ofert__social-username">Stacja Pistacja</h1>
-                </a>
-            </div>
+            <Socials />
       
         </section>
     )

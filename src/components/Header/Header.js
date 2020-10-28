@@ -9,10 +9,10 @@ const Header = () => (
     <div className="header__movie-coming-soon">FILM</div>
     <nav className="header__nav">
       <Link to="/" className="header__nav-link">Strona Główna</Link>
-      <Link to="/" className="header__nav-link">Kontakt</Link>
+      <Link to="/kontakt" className="header__nav-link">Kontakt</Link>
       <Link to="/o-mnie" className="header__nav-link">O mnie</Link>
       <Link to="/blog" className="header__nav-link">Blog</Link>
-      <Link to="/" className="header__nav-link">Sklep</Link>
+      <Link to="/sklep" className="header__nav-link">Sklep</Link>
     </nav>
   </header>
 )

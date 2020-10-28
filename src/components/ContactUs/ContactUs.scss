@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+
+.contact-us {
+    width: 100%;
+    @include  display-flex-column;
+    margin: 200px 0;
+}
+.contact-us__logo {
+    width: 300px;
+}
+.contact-us__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.contact-us__contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+        color: $primary-color;
+    }
+}
+.contact-us__icon {
+    width: 40px;
+}
+.contact-us__address {
+    margin-bottom: 0;
+    margin-left: 20px;
+}

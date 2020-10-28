@@ -4,3 +4,18 @@
 $font_black: #070707;
 $font_white: #FFFFFF;
 $primary_color: #FABEAF;
+
+//Mixins
+@mixin display-flex-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin display-flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
