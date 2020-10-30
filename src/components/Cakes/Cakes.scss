@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.cakes-offert {
+    @include display-flex-column;
+    width: 100%;
+    margin-top: 150px;
+}
+.cakes-offert__title {
+    margin: 100px 0;
+    color: $secondary_color;
+}
+.cakes-offert__lists {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.cakes-offert__list {
+    width: 35%;
+}
+.cakes-offert__list-item {
+    &::marker {
+        color: $secondary_color;
+    }
+}

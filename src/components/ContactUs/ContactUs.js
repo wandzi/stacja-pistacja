@@ -10,7 +10,6 @@ const ContactUs = () => {
   return (
     <section className="contact-us">
         <img src={logo} className="contact-us__logo" alt="logo" />
-        <Socials />
         <div className="contact-us__details">
             <a href="mailto:stacjapistacjaa@gmail.com" rel="noreferrer" className="contact-us__contact-details">
                 <img src={mailIcon} className="contact-us__icon" alt="phone-icon" />
@@ -21,6 +20,7 @@ const ContactUs = () => {
                 <h1 className="contact-us__address">666-638-256</h1>
             </a>
         </div>
+        <Socials />
     </section>
   ) 
 }

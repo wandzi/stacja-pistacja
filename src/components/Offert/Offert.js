@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Socials from '../Socials/Socials'
 import './Offert.scss'
@@ -56,15 +56,17 @@ const Offert = () => {
                         <h2 className="offert__image-caption-title">Słodki stół</h2>
                     </div>
                 </div>
-                <div className="offert__photo-container">
-                    <Img
-                        fixed={data.cakes.childImageSharp.fixed}
-                        className="offert__image"
-                    />
-                    <div className="offert__image-caption">
-                        <h2 className="offert__image-caption-title">Ciasta i małe słodkości</h2>
+                <Link to="/oferta-ciast">
+                    <div className="offert__photo-container">
+                        <Img
+                            fixed={data.cakes.childImageSharp.fixed}
+                            className="offert__image"
+                        />
+                        <div className="offert__image-caption">
+                            <h2 className="offert__image-caption-title">Ciasta i małe słodkości</h2>
+                        </div>
                     </div>
-                </div>
+                </Link>
                 <div className="offert__photo-container">
                     <Img
                         fixed={data.birthdayCake.childImageSharp.fixed}
