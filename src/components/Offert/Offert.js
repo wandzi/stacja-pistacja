@@ -8,7 +8,7 @@ const Offert = () => {
 
     const data = useStaticQuery(graphql`
         query Offer {
-            tableCake: file(relativePath: {eq: "cake_table.jpg"}) {
+            tableCake: file(relativePath: {eq: "slodki.jpg"}) {
                 id
                 childImageSharp {
                     fixed {
@@ -16,7 +16,7 @@ const Offert = () => {
                     }
                 }
             }
-            cakes: file(relativePath: {eq: "cakes.jpg"}) {
+            cakes: file(relativePath: {eq: "ciasta.jpg"}) {
                 id
                 childImageSharp {
                     fixed {
@@ -24,7 +24,7 @@ const Offert = () => {
                     }
                 }
             }
-            birthdayCake: file(relativePath: {eq: "birthday_cake.jpg"}) {
+            birthdayCake: file(relativePath: {eq: "tort.jpg"}) {
                 id
                 childImageSharp {
                     fixed {
@@ -47,15 +47,17 @@ const Offert = () => {
         <section className="offert">
             <h1 className="offert__title">Oferta:</h1>
             <div className="flex">
-                <div className="offert__photo-container">
-                    <Img
-                    fixed={data.tableCake.childImageSharp.fixed}
-                    className="offert__image"
-                    />
-                    <div className="offert__image-caption">
-                        <h2 className="offert__image-caption-title">Słodki stół</h2>
+                <Link to="/oferta-slodki-stol">
+                    <div className="offert__photo-container">
+                        <Img
+                        fixed={data.tableCake.childImageSharp.fixed}
+                        className="offert__image"
+                        />
+                        <div className="offert__image-caption">
+                            <h2 className="offert__image-caption-title">Słodki stół</h2>
+                        </div>
                     </div>
-                </div>
+                </Link>
                 <Link to="/oferta-ciast">
                     <div className="offert__photo-container">
                         <Img
@@ -67,15 +69,17 @@ const Offert = () => {
                         </div>
                     </div>
                 </Link>
-                <div className="offert__photo-container">
-                    <Img
-                        fixed={data.birthdayCake.childImageSharp.fixed}
-                        className="offert__image"
-                    />
-                    <div className="offert__image-caption">
-                        <h2 className="offert__image-caption-title">Torty</h2>
+                <Link to="/oferta-tortow">
+                    <div className="offert__photo-container">
+                        <Img
+                            fixed={data.birthdayCake.childImageSharp.fixed}
+                            className="offert__image"
+                        />
+                        <div className="offert__image-caption">
+                            <h2 className="offert__image-caption-title">Torty</h2>
+                        </div>
                     </div>
-                </div>
+                </Link>
             </div>
 
             <h3 className="offert__kicker">
