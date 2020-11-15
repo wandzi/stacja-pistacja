@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.cakes-offert__birthday-cakes {
+    @include display-flex-column;
+    width: 80%;
+}
+.cakes-offert__birthday-cakes-description {
+    margin-bottom: 50px;
+    font-size: 2.7rem;
+}
+.cakes-offert__list--birthday-cakes {
+    width: 80%;
+    margin-bottom: 50px;
+}
+.cakes-offert__list-item--birthday-cakes {
+    font-size: 2rem;
+}

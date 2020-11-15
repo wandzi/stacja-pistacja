@@ -19,7 +19,7 @@ const AboutMe = () => {
     `)
   return (
     <section className="about-me">
-        <h1 className="about-me__kicker">Cześć, jestem Joanna!</h1>
+        <h1 className="about-me__kicker">Cześć, jestem Asia!</h1>
         <div className="about-me__description">
             <p>
                 Moja przygoda z pieczeniem zaczęła się kilkanaście lat temu, gdy obserwowałam ciocię  w kuchni. 

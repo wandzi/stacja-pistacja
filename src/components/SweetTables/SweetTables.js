@@ -22,17 +22,6 @@ const SweetTables = () => {
                     <li className="cakes-offert__list-item">Ciasto Raffaello na biszkopcie  (14 kawałków) - 115zł</li> 
                     <li className="cakes-offert__list-item">Beza (9-10 porcji) smak: Mango marakuja, smak: Porzeczka śmietanka, smak: orzech, kawa, czekolada - 115zł</li> 
                 </ul>
-                <ul className="cakes-offert__list">
-                    <li className="cakes-offert__list-item">Ciasto Marchewkowe (12 kawałków) -  120zł</li> 
-                    <li className="cakes-offert__list-item">Rabarberowe z kremem Patissiere (12 kawałków) - 95zł</li> 
-                    <li className="cakes-offert__list-item">Blok czekoladowy ze słodyczami i krakersami (12 kawałków) - 110zł</li> 
-                    <li className="cakes-offert__list-item">Banoffee (12 kawałków) 115 zł</li> 
-                    <li className="cakes-offert__list-item">Tarta biała czekolada z kremem malinowym (wysoka)  (12 kawałków) - 110zł</li> 
-                    <li className="cakes-offert__list-item">Mleczna kanapka (14 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Kopiec kreta (14 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Brownie z kremem i owocami (14 kawałków) - 115zł</li>
-                    <li className="cakes-offert__list-item">Ucierane z owocami (14 kawałków) - 110zł</li>
-                </ul>
             </div>
             <div class="grid-layout">
                 <div class="grid-item grid-item-1">

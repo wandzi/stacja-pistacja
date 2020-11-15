@@ -6,33 +6,24 @@ import image4 from '../../images/birthday-cake-gallery/4.jpg'
 import image5 from '../../images/birthday-cake-gallery/5.jpg'
 import image6 from '../../images/birthday-cake-gallery/6.jpg'
 import image7 from '../../images/birthday-cake-gallery/7.jpg'
+import './BirthdayCakes.scss'
 
 const BirthdayCakes = () => {
     return (
         <section className="cakes-offert">   
             <h1 className="cakes-offert__title">Torty</h1>
-            <div className="cakes-offert__lists">
-                <ul className="cakes-offert__list">
-                    <li className="cakes-offert__list-item">Sernik Pistacjowy (14 kawałków) - 160zł</li> 
-                    <li className="cakes-offert__list-item">Szarlotka (12 kawałków) - 95zł</li>
-                    <li className="cakes-offert__list-item">Brownie  z kremem i karmelem (14 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Tarta cytrynowa (12 kawałków) -  95zł</li> 
-                    <li className="cakes-offert__list-item">Tarta oreo (wysoka)  (12 kawałków) -  115zł</li> 
-                    <li className="cakes-offert__list-item">Tarta czekoladowo porzeczkowa (wysoka) (12 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Ciasto Ferrero na biszkopcie (14 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Ciasto Raffaello na biszkopcie  (14 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Beza (9-10 porcji) smak: Mango marakuja, smak: Porzeczka śmietanka, smak: orzech, kawa, czekolada - 115zł</li> 
-                </ul>
-                <ul className="cakes-offert__list">
-                    <li className="cakes-offert__list-item">Ciasto Marchewkowe (12 kawałków) -  120zł</li> 
-                    <li className="cakes-offert__list-item">Rabarberowe z kremem Patissiere (12 kawałków) - 95zł</li> 
-                    <li className="cakes-offert__list-item">Blok czekoladowy ze słodyczami i krakersami (12 kawałków) - 110zł</li> 
-                    <li className="cakes-offert__list-item">Banoffee (12 kawałków) 115 zł</li> 
-                    <li className="cakes-offert__list-item">Tarta biała czekolada z kremem malinowym (wysoka)  (12 kawałków) - 110zł</li> 
-                    <li className="cakes-offert__list-item">Mleczna kanapka (14 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Kopiec kreta (14 kawałków) - 115zł</li> 
-                    <li className="cakes-offert__list-item">Brownie z kremem i owocami (14 kawałków) - 115zł</li>
-                    <li className="cakes-offert__list-item">Ucierane z owocami (14 kawałków) - 110zł</li>
+            <div className="cakes-offert__birthday-cakes">
+                <p className="cakes-offert__birthday-cakes-description"> Cena tortu zależna jest od dekoracji jak i ilości porcji. Najmniejszy tort jaki możesz zamówić jest na 8-10 porcji. 
+                    Ceny są ustalane indywidualnie. Jeśli chcesz zamówić tort lub inne słodkości, koniecznie napisz termin realizacji oraz ilość porcji.
+                </p>
+                <p className="cakes-offert__birthday-cakes-description"> Nie czekaj do ostatniej chwili! Poniżej prezentuje smaki jakie mamy dostępne w naszej ofercie:</p>
+                <ul className="cakes-offert__list--birthday-cakes">
+                    <li className="cakes-offert__list-item--birthday-cakes">Krem pistacjowy z kremem malinowym i frużeliną malinową plus krem krem biała czekolada.</li> 
+                    <li className="cakes-offert__list-item--birthday-cakes">Krem oreo z kremem mleczna czekolada i żelka porzeczkowa.</li>
+                    <li className="cakes-offert__list-item--birthday-cakes">Krem mango z żelką mango marakuja plis krem malinowy z malinami.</li> 
+                    <li className="cakes-offert__list-item--birthday-cakes">Krem malinowy z chrupką i owocami plus krem porzeczkowy z żelką.</li> 
+                    <li className="cakes-offert__list-item--birthday-cakes">Krem biała czekolada z chrupką plus krem malinowy z  owocami.</li> 
+                    <li className="cakes-offert__list-item--birthday-cakes">Krem solony karmel z kremem czekoladowym i chrupką oraz żelką porzeczkową.</li> 
                 </ul>
             </div>
             <div class="grid-layout">
