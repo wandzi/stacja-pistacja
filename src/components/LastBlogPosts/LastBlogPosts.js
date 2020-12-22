@@ -13,12 +13,19 @@ const LastBlogPosts = () => {
     })
     .catch(console.error)
   }, [])
-  console.log(data);
+
   return (
     <section className="blog__posts-container">
-      {data && data.slice(0, 3).map(item => (
-        <BlogPost id={item.fields.createdAt} image={item.fields.postImage.fields.file.url} title={item.fields.postTitle} description={item.fields.postShortDescription}/>
-      ))}
+      { 
+        data && data.slice(0, 3).map(item => (
+          <BlogPost 
+            id={item.fields.createdAt} 
+            image={item.fields.postImage.fields.file.url} 
+            title={item.fields.postTitle} 
+            description={item.fields.postShortDescription}
+          />
+        ))
+      }
     </section>
   )
 }

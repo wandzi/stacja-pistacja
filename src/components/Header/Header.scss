@@ -4,7 +4,7 @@
     width: 100%;
     height: 70vh;
 }
-.header__movie-coming-soon {
+.header__top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,32 @@
         100% 100%,
         0 94%
     );
+}
+.header__top-image {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.header__top-name {
+    position: relative;
+    bottom: -150px;
+    right: -500px;
+    z-index: 20;
+    background-image: linear-gradient(
+        to right,
+        #ca923e 0,
+               #cb9b51 22%, 
+        #f5de6a 45%,
+        #f5ed7e 50%,
+        #f5de6a 55%,
+        #cb9b51 78%,
+        #ca923e 100%
+        );
+       color:transparent;
+       -webkit-background-clip:text;
+    font-size: 8rem;
+    font-weight: 400;
+    
 }
 .header__nav {
     display: flex;

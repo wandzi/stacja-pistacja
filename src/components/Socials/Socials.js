@@ -7,9 +7,9 @@ import './Socials.scss'
 const Socials = () => {
   return (
     <div className="social-container">
-        <a href="https://www.instagram.com/joanna_musiol/" target="_blank" rel="noreferrer" className="social-container__social-link">
+        <a href="https://www.instagram.com/stacjapistacjaa_/" target="_blank" rel="noreferrer" className="social-container__social-link">
             <img className="social-container__social-logo" src={instagramLogo} alt="instagram-logo" />
-            <h1 className="social-container__social-username">joanna_musiol</h1>
+            <h1 className="social-container__social-username">stacjapistacjaa_</h1>
         </a>
         
         <a href="https://www.facebook.com/Stacja-Pistacja-2237274909854496" target="_blank" rel="noreferrer" className="social-container__social-link">

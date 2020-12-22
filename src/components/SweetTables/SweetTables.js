@@ -23,25 +23,23 @@ const SweetTables = () => {
                     <li className="cakes-offert__list-item">Beza (9-10 porcji) smak: Mango marakuja, smak: Porzeczka śmietanka, smak: orzech, kawa, czekolada - 115zł</li> 
                 </ul>
             </div>
-            <div class="grid-layout">
-                <div class="grid-item grid-item-1">
-                    <img src={image1} alt="1" />
+            <div className="gallery-layout">
+                <div className="gallery-row">
+                    <img src={image1} alt="1" className="gallery-image"/>
+
+                    <img src={image2} alt="2" className="gallery-image"/>
+
+                    <img src={image3} alt="3" className="gallery-image"/>
                 </div>
-                <div class="grid-item grid-item-2">
-                    <img src={image2} alt="2" />
+
+                <div className="gallery-row">
+                    <img src={image4} alt="4" className="gallery-image"/>
+
+                    <img src={image5} alt="5" className="gallery-image"/>
+
+                    <img src={image6} alt="6" className="gallery-image"/>
                 </div>
-                <div class="grid-item span-3 grid-item-3">
-                    <img src={image3} alt="3" />
-                </div>
-                <div class="grid-item grid-item-4">
-                    <img src={image4} alt="4" />
-                </div>
-                <div class="grid-item span-2 grid-item-5">
-                    <img src={image5} alt="5" />
-                </div>
-                <div class="grid-item grid-item-6">
-                    <img src={image6} alt="6" />
-                </div>
+
             </div>
         </section>
     )

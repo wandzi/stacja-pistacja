@@ -1,4 +1,5 @@
 @import '../../styles/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 .offert {
     display: flex;
@@ -39,11 +40,11 @@
     -moz-transition:all 300ms ease-in-out;
     -o-transition:all 300ms ease-in-out;
     -ms-transition:all 300ms ease-in-out;
-    font-size: 3rem;
+    font-size: 2rem;
     color: $font_white;
-    text-transform: uppercase;
     text-align: center;
     cursor: pointer;
+    font-family: 'Dancing Script', cursive;
 }
 .offert__image-caption-title {
     margin: 0;
@@ -53,7 +54,7 @@
 }
 .offert__kicker {
     margin: 150px 0;
-    font-size: 3.7rem;
+    font-size: 3.2rem;
     text-align: center;
 }
 .offert__contact-details {

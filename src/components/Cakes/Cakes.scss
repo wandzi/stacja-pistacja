@@ -29,32 +29,15 @@
 
 // Gallery 
 
-.grid-layout {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    grid-gap: 10px;
-    grid-auto-rows: minmax(180px, auto);
-    grid-auto-flow: dense;
-    padding-top: 250px;
-    background-color: $primary_color;
-    clip-path: polygon(
-        0 10%,
-        100% 0,
-        100% 100%,
-        0 100%
-    );
+.gallery-layout {
+    @include display-flex-column;
+    width: 100%;
 }
-.grid-item {
-    padding: 1rem;
-    img {
-        width: 100%;
-    }
+.gallery-row {
+    @include display-flex-row;
+    justify-content: space-around;
+    margin-top: 30px;
 }
-.span-2 {
-    grid-column-end: span 2;
-    grid-row-end: span 2;
-}
-.span-3 {
-    grid-column-end: span 3;
-    grid-row-end: span 4;
+.gallery-image {
+    width: 30%;
 }
